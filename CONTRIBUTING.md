@@ -41,6 +41,7 @@ Follow these guidelines to make your and the repositoriy maintainer's work simpl
     ```cpp
     sieve_of_eratosthenes.cpp ✅
     ```
+- Update the appropriate `DOC.md` file to include the new program to the list (use the template provided above to do so).
 
 ### Bug Fixes?
 
@@ -52,7 +53,7 @@ Follow these guidelines to make your and the repositoriy maintainer's work simpl
 
 - [Open a new issue](https://github.com/GDSC-AUM/OpenOcto-DSA/issues/new), include a **clear title and description**.
 
-- Description should show what was improved (sometimes even changing badly named variables can be considered a improvment) 👍.
+- Description should show what was improved (sometimes even changing badly named variables can be considered as an improvement) 👍.
 
     Example:
 
