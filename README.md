@@ -2,6 +2,10 @@
 
 Data Structures and Algorithms implemented in C++
 
+Code here directly using Gitpod!
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/GDSC-AUM/OpenOcto-DSA)
+
 ## Everthing done in C++
 
 All programs are strictly written in C++.
