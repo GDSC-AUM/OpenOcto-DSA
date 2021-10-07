@@ -10,7 +10,19 @@ Follow these guidelines to make your and the repositoriy maintainer's work simpl
 
 ### Contributing to the documentation?
 
-- Make sure you read and understand the [Contributing Guidelines](CONTRIBUTING.md) thoroughly, [open a new issue](https://github.com/GDSC-AUM/OpenOcto-DSA/issues/new), make changes and finally create a pull request. It would be put under review and accepted if appropriate.
+- Make sure you read and understand the [Contributing Guidelines](CONTRIBUTING.md) thoroughly, [open a new issue](https://github.com/GDSC-AUM/OpenOcto-DSA/issues/new), make changes to the `DOC.md` file of the related category and finally create a pull request. It would be put under review and accepted if appropriate.
+
+- To add any new program to the document, use the syntax given below:
+
+    ```markdown
+    ## Program name
+
+    - [Source code](./file_name.cpp)
+
+    - A short description of the program. [[<Reference Source Name>](link to the reference webpage)]
+    ```
+
+- Check [here](./sorting/DOC.md) to see an example.
 
 ### A New Program?
 
