@@ -22,7 +22,7 @@ Follow these guidelines to make your and the repositoriy maintainer's work simpl
     - A short description of the program. [[<Reference Source Name>](link to the reference webpage)]
     ```
 
-- Check [here](./sorting/DOC.md) to see an example.
+- Check [here](https://raw.githubusercontent.com/GDSC-AUM/OpenOcto-DSA/main/sorting/DOC.md) to see an example.
 
 ### A New Program?
 
