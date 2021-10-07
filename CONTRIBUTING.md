@@ -2,9 +2,9 @@
 
 Follow these guidelines to make your and the repositoriy maintainer's work simpler.
 
-## Found a bug?
+## Creating issues
 
-- **Ensure that the bug has not been reported already**. Before creating a new issue, search for it in [project issues](https://github.com/GDSC-AUM/OpenOcto-DSA/issues).
+- **Ensure that the problem has not been reported already**. Before creating a new issue, search for it in [project issues](https://github.com/GDSC-AUM/OpenOcto-DSA/issues).
 
 - If you're are unable to find any open issues for the problem, follow one of the steps mentioned below:
 
