@@ -1,5 +1,7 @@
 # OpenOcto - Data Structures and Algorithms
 
+![OpenOcto](./LOGO.png)
+
 Data Structures and Algorithms implemented in C++
 
 Code here directly using Gitpod!
