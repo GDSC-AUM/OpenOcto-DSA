@@ -1,0 +1,32 @@
+// Complexity: get -> O(1) update -> N
+
+#include <bits/stdc++.h>
+using namespace std;
+
+vector <int> arr;
+vector <int> ac;
+
+int get(int l, int r){
+    return ac[r]-ac[l-1];
+}
+
+int update(int pos, int val){
+    arr[pos-1] = val;
+    for(int i = pos; i < arr.size()+1; i++){
+        ac[i] = ac[i-1] + arr[i-1];
+    }
+}
+
+int main(){
+	int n; cin >> n;
+    ac.push_back(0);
+	for(int i = 0; i < n; i++){
+        int a; cin >> a;
+        arr.push_back(a);
+        ac.push_back(ac[i] + a);
+	}
+	int l, r;
+	cin >> l >> r;
+	cout << get(l, r) << endl; // get sum of all positions from i to j inclusive
+    update(2, 4); // change value at position i to j
+}
