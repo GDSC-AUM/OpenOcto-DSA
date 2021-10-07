@@ -18,6 +18,18 @@ Follow these guidelines to make your and the repositoriy maintainer's work simpl
 
 - Add some **test cases** showing what the program does.
 
+- If an appropriate directory for your program doesn't exist, add them to the `others` folder.
+
+- Please name you files with lowercase letters and word seperated by underscores (**snake case**)
+
+    ```cpp
+    SieveOfEratosthenes.cpp ❌
+    ```
+
+    ```cpp
+    sieve_of_eratosthenes.cpp ✅
+    ```
+
 ### Bug Fixes?
 
 - Found and fixed a bug 🐜? [Open a new issue](https://github.com/GDSC-AUM/OpenOcto-DSA/issues/new), include a **clear title and description**.
