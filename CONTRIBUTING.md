@@ -41,6 +41,7 @@ Follow these guidelines to make your and the repositoriy maintainer's work simpl
     ```cpp
     sieve_of_eratosthenes.cpp ✅
     ```
+
 - Update the appropriate `DOC.md` file to include the new program to the list (use the template provided above to do so).
 
 ### Bug Fixes?
