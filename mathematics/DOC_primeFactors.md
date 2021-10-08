@@ -1,5 +1,7 @@
 # Prime Factors of any number
 
+[Source Code](./prime_factors.cpp)
+
 Prime factors are the factors of a number, which are already prime number.
 
 To write this program, we will run a loop from 1 to less than 'n' (where 'n' is the user input value, of which we need to find the prime factors).
