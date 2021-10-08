@@ -19,3 +19,5 @@ Refer to the **documentation** [here](./docs/DOCUMENTATION.md).
 ## Contribution Guidelines
 
 As a community developed and maintained repository under GDSC AUM, new and un-plagarized quality contributions are welcomed. Please refer [Contribution Guidelines](CONTRIBUTING.md) before you contribute to this project.
+
+**Note: Only create pull requests for issues you're assigned.** Creating PRs for issues you are not assigned would not be approved.
