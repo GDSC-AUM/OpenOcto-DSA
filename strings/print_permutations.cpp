@@ -1,9 +1,11 @@
-// Import the header
-#include <bits/stdc++.h>
-// Import string header
+// Import the standard input output header
+#include <iostream>
+// Import string header (used for obtaining a substring of given string)
 #include <string>
 using namespace std;
 
+// Time complexity of the algorithm is O(n * n!) 
+// O(n) time for printing each permutation and there are total n! permutations;
 
 void printPerms(string s, string toPrint){
 
