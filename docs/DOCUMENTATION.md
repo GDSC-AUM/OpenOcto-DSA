@@ -14,6 +14,8 @@
 
 - [Greedy](../greedy/DOC.md)
 
+- [Mathematics](../mathematics/DOC.md)
+
 - [Searching](../searching/DOC.md)
 
 - [Sorting](../sorting/DOC.md)
