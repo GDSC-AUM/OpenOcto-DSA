@@ -1,16 +1,8 @@
-/* 
-    Name: Bala Hantsi
-    Twitter: @b_hantsi
-    Github:  bhantsi
-
- */
-
-//  Entcryption
-
-   #include<iostream>
+#include<iostream>
 #include<string>
 using namespace std;
-int main(){
+
+void encryption(){
     int i,j,k;
     string s,t;
     int key;
@@ -22,17 +14,9 @@ int main(){
         t+=(s[i]-'A'+key)%26+'A';
     }
     cout<<"\n\nEncrypted message is "<<t<<'\n';
-    return 0;
 }   
 
-
-// Decryption
-
-
-   #include<iostream>
-#include<string>
-using namespace std;
-int main(){
+void decryption(){
     int i,j,k;
     string s,t;
     int key;
@@ -44,5 +28,10 @@ int main(){
         t+=(s[i]-'A'-key+26)%26+'A';
     }
     cout<<"\n\nDecrypted message is "<<t<<'\n';
+}
+
+int main() {
+    encryption();
+    decryption();
     return 0;
-}  
+}
