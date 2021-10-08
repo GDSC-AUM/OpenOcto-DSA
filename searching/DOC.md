@@ -2,5 +2,5 @@
 
 ## Linear Search
 
-- [Source Code](searching/Linear_search.cpp)
+- [Source Code](OpenOcto-DSA/searching/Linear_search.cpp)
 
