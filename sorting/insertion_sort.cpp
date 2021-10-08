@@ -30,8 +30,8 @@ int main()
 	int n = sizeof(arr) / sizeof(arr[0]);
 
 	insertionSort(arr, n);
-    int i;
-	for (i = 0; i < n; i++)
+         
+	for (int i = 0; i < n; i++)
 		cout << arr[i] << " ";
 	cout << endl;
 
