@@ -9,10 +9,14 @@
 For example,  `5! = 5 . 4 . 3 . 2 . 1 = 120`  
 The value of `0!` is `1`, according to the convention for an empty product. [[Wikipedia](https://en.wikipedia.org/wiki/Factorial)]
 
-## Factors of a Number
+## Prime Factors of a Number
 
-- [Source code](./factors_of_n.cpp)
+- [Source code](./prime_factors_of_n.cpp)
 
-- In mathematics, factors of a non-negative integer n, are positive integers less than n which completely divides n,i.e., they leave remainder 0 when n is divided by them:
-  
-For example,  `Factors of 30 are 2, 3, 5, 6, 10, 15`  
+- In mathematics, factors of a non-negative integer n, are positive integers less than n which completely divides n,i.e., they leave remainder 0 when n is divided by them. Prime factors of a number n are factors of n which are prime numbers.
+
+### For example: 
+<pre>
+    Factors of 30 are 1, 2, 3, 5, 6, 10, 15
+    Prime Factors of 30 are 2, 3, 5
+</pre>
