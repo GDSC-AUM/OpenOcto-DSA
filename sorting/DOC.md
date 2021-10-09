@@ -7,6 +7,15 @@
 - Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted. The algorithm, which is a comparison sort, is named for the way smaller or larger elements "bubble" to the top of the list. [[Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)]
 
 
+## Selection Sort
+
+- [Source code](./selection_sort.cpp)
+
+- Selection sort is an in-place comparison sorting algorithm. It provides some performance advantages over more complicated algorithms in certain situations, particularly where secondary/external memory is limited. It divides the input array into two parts: a sorted subarray which is built up from left to right at the front of the list and a subarray of the remaining unsorted items that occupy the rest of the array. Then, it proceeds by finding the smallest (or largest, depending on sorting order) element in the unsorted subarray, exchanging (swapping) it with the leftmost unsorted element (putting it in sorted order), and moving the subarray boundaries one element to the right.  
+**Time Complexity** --> Average Case: **O(n<sup>2</sup>)**  ||  Worst Case: **O(n<sup>2</sup>)**  
+[[Wikipedia](https://en.wikipedia.org/wiki/Selection_sort)]
+
+
 ## Insertion Sort
 
 -  [Source code](./insertion_sort.cpp)
