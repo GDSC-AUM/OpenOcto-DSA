@@ -22,7 +22,7 @@
  [[Wikipedia](https://en.wikipedia.org/wiki/Quicksort)]
 
 
-## Selectio Sort
+## Selection Sort
 - [Source code](./selection_sort.cpp)
 
 - Selection sort is a simple sorting that gives the final sorted array one item at a time. It has the time complexity of O(n^2) therefore it is much slower than quick sort, merge sort, heap sort. [[Wikipedia](https://en.wikipedia.org/wiki/Selection_sort)]
