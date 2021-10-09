@@ -20,3 +20,9 @@
 
 - Quicksort is a divide-and-conquer algorithm. It works by selecting a `pivot` element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. It is also sometimes called partition-exchange sort. The sub-arrays are then sorted recursively. This can be done in-place, requiring small additional amounts of memory to perform the sorting. **Time Complexity** --> Average case: **O(n log n)**  ||  Worst case: **O(n<sup>2</sup>)**
  [[Wikipedia](https://en.wikipedia.org/wiki/Quicksort)]
+
+
+## Selectio Sort
+- [Source code](./selection_sort.cpp)
+
+- Selection sort is a simple sorting that gives the final sorted array one item at a time. It has the time complexity of O(n^2) therefore it is much slower than quick sort, merge sort, heap sort. [[Wikipedia](https://en.wikipedia.org/wiki/Selection_sort)]
