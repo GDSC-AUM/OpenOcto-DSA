@@ -1,5 +1,4 @@
-
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int ternarySearch(int l, int r, int key, int ar[])
