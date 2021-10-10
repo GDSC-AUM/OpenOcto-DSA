@@ -38,3 +38,12 @@
 - Merge sort takes advantage of the ease of merging already sorted lists into a new sorted list. It starts by comparing every two elements (i.e., 1 with 2, then 3 with 4...) and swapping them if the first should come after the second. It then merges each of the resulting lists of two into lists of four, then merges those lists of four, and so on; until at last two lists are merged into the final sorted list. Its worst-case running time is O(n log n). It is also easily applied to lists, not only arrays, as it only requires sequential access, not random access. However, it has additional O(n) space complexity, and involves a large number of copies in simple implementations.
 **Time complexity** --> Average case: **O(n log n)** || Worst case: **O(nlogn)**
 [[Wikipedia](https://en.wikipedia.org/wiki/Merge_sort)]
+
+ ## Radix Sort
+
+- [Source code](./radix_sort.cpp)
+
+- In computer science, radix sort is a non-comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their radix. For elements with more than one significant digit, this bucketing process is repeated for each digit, while preserving the ordering of the prior step, until all digits have been considered. For this reason, radix sort has also been called bucket sort and digital sort.
+**Time Complexity** --> Average Case: **O(nw)** || Worst case: **O(nw)**
+where n is the number of keys, and w is the key length
+[[Wikipedia](https://en.wikipedia.org/wiki/Radix_sort)]
