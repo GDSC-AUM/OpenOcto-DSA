@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// A utility function to get maximum value in arr[]
 int getMax(int arr[], int size)
 {
     int max = arr[0];
