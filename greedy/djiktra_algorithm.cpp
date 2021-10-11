@@ -5,7 +5,13 @@
 
 
 
-#include <bits/stdc++.h>
+// #include <bits/stdc++.h>
+#include<iostream>
+#include<vector>
+#include<set>
+#include<pair>
+
+
 using namespace std;
 
 int inf = 1e7;
