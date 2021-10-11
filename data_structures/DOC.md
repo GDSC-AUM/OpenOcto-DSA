@@ -3,7 +3,7 @@
 ## Permutations of n and 0
 ----------
 
-- [Source code](data_structures/permutations_of_n&0.cpp)
+- [Source code](./permutations_of_n&0.cpp)
 
 - Take `x` and `n` from the user as input.
 
