@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-    // Creatig a dynamic array
+    // Creating a dynamic array
     int n,*arr,key,i;
 
     //Entering the size of array
