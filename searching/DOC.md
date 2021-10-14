@@ -21,3 +21,14 @@ ___
 
 - **Space Complexity O(1)**
     - This is because we need two variable to keep track of the range of elements that are to be checked. No other data is needed.
+
+## Linear Search
+- [Source code](./linear_search)
+
+- Linear Search is a searching algorithm in which it sequentially checks each element of the list until a match is found or the whole list has been searched.
+- A _linear search_ runs in at worst linear time and makes at most n comparisons, where n is the length of the list. If each element is equally likely to be searched, then linear search has **an average case of 
+n+1
+/
+2**
+ comparisons, but the average case can be affected if the search probabilities for each element vary.
+[[Wikipedia]](./https://en.wikipedia.org/wiki/Linear_search)
