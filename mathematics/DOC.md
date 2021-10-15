@@ -20,3 +20,16 @@ The value of `0!` is `1`, according to the convention for an empty product. [[Wi
     Factors of 30 are 1, 2, 3, 5, 6, 10, 15
     Prime Factors of 30 are 2, 3, 5
 </pre>
+
+## Sieve of eratosthenes
+
+- [Source code](./sieve_or_eratosthenes.cpp)
+
+- Prime numbers are those natural numbers that are divisible by only 1 and themselves. Sieve of eratosthenes is a famous effecient algorithm to find all the prime numbers less than equal to a given number **n**.
+
+### For example: 
+<pre>
+    Prime numbers less than equal to 30 are 
+    2, 3, 5, 7, 11, 13, 17, 19, 23, 29
+    Count of primes less than equal to 30 is 10
+</pre>
