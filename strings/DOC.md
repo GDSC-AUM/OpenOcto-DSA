@@ -2,7 +2,7 @@
 
 ## Print Permutations of String
 
-- [Source Code](strings/print_permutations.cpp)
+- [Source Code](./print_permutations.cpp)
 
 - Takes a string from user and print its all possible permutations
 

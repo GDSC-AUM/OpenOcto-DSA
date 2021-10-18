@@ -2,7 +2,7 @@
 
 ## Find length of longest common substring
 
-- [Source Code](dynamic_programming/longest_common_substring.cpp)
+- [Source Code](./longest_common_substring.cpp)
 
 - Take 2 strings from user, and print the length of their longest common substring.
 
@@ -10,7 +10,7 @@
 
 ## nth number in fibonacci sequence
 
-- [Source Code](dynamic_programming/fibonacci.cpp)
+- [Source Code](./fibonacci.cpp)
 
 - Take n from user, and print the n<sup>th</sup> number in fibonacci sequence.
 
